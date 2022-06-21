@@ -14,7 +14,11 @@ body {
     width: 100%;
     height: 100%;
     
-    background: linear-gradient(45deg, rgb(29, 29, 255), rgb(82, 202, 253));
+    background-image: url(../img/8FDA4A31-A1EB-47EA-8040-433820CCC5F9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-size: 1.6rem;
     background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
@@ -54,7 +58,7 @@ span{
 
 .container {
 
-    width: 60%;
+    width: 40%;
     height: 100%;
     background: #fff;
     display: flex;
@@ -182,6 +186,10 @@ footer{
     background: black;
     text-align: center;
     margin-top: 5rem;
+}
+
+.footer-text{
+    font-size: 1rem;
 }
 
 /* @media(max-height: 780px) {

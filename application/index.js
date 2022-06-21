@@ -61,7 +61,7 @@ function calcular() {
                                 var somaTotal = (part1 + part2) * 10
 
 
-                                resp.innerHTML += `<br> soma = ${somaTotal.toFixed(1)}`
+                                resp.innerHTML += `<br> Média = ${somaTotal.toFixed(1)}`
 
                             } else {
                                 window.alert("A nota da prova semestral não está nos padrões, digite um valor entre 0 a 10");
@@ -79,7 +79,7 @@ function calcular() {
                     }
 
                 } else {
-                    window.alert("A nota do Check Point 3 não está nos padrões, digite um valor entre 0 a 10");
+                    window.alert("A nota do Check Point 3 não está nos padrões, digite um valor entre 0 a  10");
 
                 }
 
